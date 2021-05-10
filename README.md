@@ -2,7 +2,15 @@
 A simple python program that does a cross-fade effect between 2 images, generating an arbitrary number of intermediate images
 
 ## Usage
-After choosing 2 images of compatible extentions (jpg, jpeg, etc... **PNG not supported yet**), you can mannualy provide the path (explained in options below) or simply **paste both images on the *INPUT*  ditectory**. Than, run ./bin/make.sh to install dependences and run python3 fade.py (optionally specifying your preferences explained below)
+After choosing 2 images of compatible extentions (jpg, jpeg, etc... **PNG not supported yet**), you can mannualy provide the path (explained in options below) or simply **paste both images on the *INPUT*  ditectory**. Than, run:
+
+`./bin/make.sh` 
+
+to install dependences, then
+
+`python3 fade.py`
+
+to run the actual program (optionally specifying your preferences explained below)
 
 ## Options
 #### -i or --image
