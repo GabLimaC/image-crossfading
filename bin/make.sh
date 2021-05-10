@@ -1,1 +1,1 @@
-pip install opencv-python --user
+sudo apt update && sudo apt install python3-pip && pip3 install opencv-python --user
